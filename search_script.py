@@ -44,6 +44,8 @@ json_data.to_csv('columns.csv', index=None)
 # Delete json file
 os.remove("data.json")
 
+print("Done! Check your result in columns.csv ")
+
 
 
 
