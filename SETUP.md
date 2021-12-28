@@ -6,3 +6,5 @@ The complete list is described in the requirements.txt file.
 2. Then create a virtual environment: virtualenv venv
 3. After activate venv: source venv / bin / activate / venv / bin / activate (for windows)
 4. And in the end install other program packages in command line / terminal enter: pip install -r requirements.txt
+
+After all of the above, you can run the project.
