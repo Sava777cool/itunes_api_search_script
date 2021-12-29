@@ -9,7 +9,7 @@ import urllib.request
 
 # Enter Artist to artist and song to song_title
 artist = "bing-crosby"
-song_title = "white hristmas"
+song_title = "white christmas"
 
 
 # Get the id of the album for further search of the list of songs
@@ -119,10 +119,11 @@ url_ending = artist.replace(' ', '-') + '/' + song_title.replace(' ', '-')
 album_id = get_album_id(term)
 
 # We pass the resulting id to the collection search function
-list_songs = get_list_songs(album_id)
+get_list_songs(album_id)
 
 # Call function of creating a csv file
 generate_csv()
+
 # Call function search and create a file with text and chords
 generate_text_file(url_ending)
 
